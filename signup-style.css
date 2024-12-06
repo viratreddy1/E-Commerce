@@ -1,0 +1,120 @@
+body{
+    background-color: black;
+    filter: brightness(0.6);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.x-symbol{
+    position: relative;
+    background-color: black;
+    left: 250px;
+    top: -15px;
+    border: 2px solid black;
+    padding: 8px;
+    border-radius: 0 0 0 5px;
+    font-size: 12px;
+    filter: brightness(1.5);
+}
+h2{
+    position: relative;
+    right: 160px;
+    margin-bottom: 0px;
+}
+h4{
+    margin-top: 3px;
+    color: gainsboro;
+    position: relative;
+    right: 80px;
+}
+.phd{
+    background-color: rgb(23, 22, 22);
+    color: white;
+    filter: brightness(1.2);
+    border-width: 1px;
+    width: 380px;
+    height: 30px;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-color: rgb(207, 199, 199);
+    border-radius: 2px;
+    font-size: 20px;
+    
+}
+.sign{
+    background-color: red;
+    color: white;
+    width: 405px;
+    height: 50px;
+    margin: 15px;
+    border: 0cap;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 3px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+    font-size: 20px;
+    
+}
+.line::before,
+.line::after{
+content: "";
+flex: 1;
+height: 1px;
+width: 10px;
+background-color: rgb(152, 138, 138);
+margin-right: 60px;
+margin-left: 50px;
+}
+.face{
+    width:115px;
+    height:40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    background-color: blue;
+    filter: brightness(0.8);
+    border-radius: 2px;
+    color: white;
+    margin-right: 15px;
+    cursor: pointer;
+    border: none;
+}
+.go{
+    width:125px;
+    height:40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    background-color: red;
+    border-radius: 2px;
+    color: white;
+    margin-right: 16px;
+    cursor: pointer;
+    border: none;
+    
+}
+.twi{
+    width:120px;
+    height:40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    background-color: rgb(108, 196, 231);
+    filter:brightness(1);
+    filter: saturate(2);
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+.main{
+    width: 500px;
+    height:650px;
+    background-color: rgb(23, 22, 22);
+    padding: 10px;
+}
